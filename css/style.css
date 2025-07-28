@@ -7,7 +7,7 @@
 
 body{
     font-family:  'Montserrat', 'Helvetica Neue', sans-serif;
-    background-color: red;
+    background-color: rgb(207, 203, 203);
 }
 
 /* Stile header */
@@ -33,5 +33,58 @@ h1{
 }
 
 /* Stile main */
+.container{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.video-container{
+    width: 100%;
+    display: flex;
+    background-color: white;
+
+}
+
+.video {
+    width: 70%;
+}
+
+.video img{
+    width: 100%;
+}
+.text-container{
+    width: 30%;
+}
+
+.text{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+/* tablet version */
+@media screen and (max-width:768px) {
+    .video-container{
+        display: block;
+    }
+    
+    .video {
+    width: 100%;
+    }
+
+    .text{
+    width: 100%;
+    }
+}  
+
+/* mobile version */
+
 
 /* Stile footer */
+
+
+/* tablet version */
+
+
+/* mobile version */
