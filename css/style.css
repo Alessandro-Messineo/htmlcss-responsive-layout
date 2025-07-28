@@ -41,6 +41,18 @@ h1{
 }
 
 /* Stile section-video */
+#section-video > span:first-of-type {
+    color: gray;
+    padding: 50px 0 15px 0;
+    display: block;
+}
+
+#section-video h2{
+    font-size: 50px;
+    margin-bottom: 15px;
+    color: rgba(78,57,105,255);
+}
+
 .video-container{
     width: 100%;
     display: flex;
@@ -62,6 +74,15 @@ h1{
 .text{
     width: 90%;
     margin: 0 auto;
+}
+
+#section-video h3{
+    margin: 30px 0;
+}
+
+.text span{
+   display: inline-block;
+   margin-bottom: 15px;
 }
 
 /* Stile section-btn-social */
@@ -119,6 +140,11 @@ h1{
         display: block;
     }
     
+    .text-container{
+    width: 100%;
+    margin-left: 10px;
+    }
+
     .video {
     width: 100%;
     }
@@ -138,6 +164,10 @@ h1{
 
 /* mobile version */
 @media screen and (max-width:480px) {
+    h2 span{
+        display: none;
+    }
+    
     .button {
     padding: 5px 10px;
     }
