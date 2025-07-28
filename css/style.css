@@ -162,9 +162,38 @@ h1{
 }  
 
 /* Stile footer */
+.container-footer{
+    background-color: rgba(124,105,164,255);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 13px;
+    width: 100%;
+    margin-top: 100px;
+}
 
+footer a{
+    color: white;
+}
 
+.link{
+    align-content: center;
+}
 /* tablet version */
+@media screen and (max-width:768px) {
+    .container-footer{
+        display: block;
+        text-align: center;
+    }
 
+    address{
+        margin-bottom: 10px;
+    }
+    
+    footer a{
+        margin-right: 10px;
+    }
+}
 
 /* mobile version */
