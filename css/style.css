@@ -7,11 +7,29 @@
 
 body{
     font-family:  'Montserrat', 'Helvetica Neue', sans-serif;
+    background-color: red;
 }
 
 /* Stile header */
 header{
     font-family:   'Nerko One', cursive;
+    background-color: white;
+    color: rgba(255,150,20,255);
+}
+
+h1{
+    padding-left: 10px;
+    font-size: 40px;
+}
+
+/* tablet version */
+
+
+/* mobile version */
+@media screen and (max-width:480px) {
+    h1{
+        text-align: center;
+    }
 }
 
 /* Stile main */
