@@ -80,6 +80,11 @@ h1{
   font-size: 16px;
 }
 
+/* Stile banner-adv */
+.container-banner-adv img{
+    width: 100%;
+}
+
 /* tablet version */
 @media screen and (max-width:768px) {
     .container{
@@ -107,6 +112,10 @@ h1{
 @media screen and (max-width:480px) {
     .button {
     padding: 5px 10px;
+    }
+
+    #section-banner-adv{
+        display: none;
     }
 }  
 
