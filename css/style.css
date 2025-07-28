@@ -7,7 +7,8 @@
 
 body{
     font-family:  'Montserrat', 'Helvetica Neue', sans-serif;
-    background-color: rgb(207, 203, 203);
+    background-color: rgb(226, 224, 224);
+    font-size: 20px;
 }
 
 /* Stile header */
@@ -76,14 +77,37 @@ h1{
   background-color: white;
   border: none;
   border-radius: 50px;
-  padding: 15px 40px;
+  padding: 15px 0;
+  width: calc(100%/5);
   font-size: 16px;
 }
 
-/* Stile banner-adv */
+/* Stile section-banner-adv */
 .container-banner-adv img{
     width: 100%;
 }
+
+/* Stile section-presentation */
+#section-presentation h2{
+    font-size: 40px;
+    margin: 30px 0 5px 0;
+}
+
+.divisore{
+    border: 2px solid rgba(246,183,113,255);
+    width: 100px;
+    margin-bottom: 30px;
+}
+
+.float{
+    float: left;
+    margin-right: 10px;
+}
+
+.container-float img{
+    width: 30%;
+}
+
 
 /* tablet version */
 @media screen and (max-width:768px) {
@@ -106,6 +130,10 @@ h1{
     .button b{
         display: none;
     }
+
+    .container-float img{
+    width: 40%;
+    }
 }  
 
 /* mobile version */
@@ -116,6 +144,20 @@ h1{
 
     #section-banner-adv{
         display: none;
+    }
+
+    #section-presentation h2{
+    margin: 0 0 5px 0;
+    }
+
+    .float{
+    float: none;
+    }
+
+    .container-float img{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
     }
 }  
 
